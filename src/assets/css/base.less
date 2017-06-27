@@ -1,0 +1,94 @@
+
+@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+html{overflow-y:scroll; overflow-x: hidden;}
+body,div,ul,li,span,img,input,form{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd{ margin:0;}
+ul,ol,{padding:0;}
+
+body{
+    font-family:Arial, Helvetica, sans-serif, "宋体";
+    font-size:14px;
+    color:#666;
+}
+a{ text-decoration:none; color:#666666; }
+li{ list-style:none; }
+img{ border:none 0;}
+input,textarea,select{ margin:0; }					
+input,textarea{ padding:0;}
+input::-ms-clear{display:none;}
+
+
+/* 浮动公共样式 */
+.fl{ float:left; _display:inline; }
+.fr{ float:right; _display:inline; }
+.clearfix:after{ display:block; content:''; clear:both;}
+.clearfix{ zoom:1;}
+.con{
+    width: 1200px;
+    margin: 0 auto;
+}
+.basebg{
+    background-color: #0491cd
+}
+/*全局变量*/
+.btn{
+    min-width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: rgb(255, 255, 255);
+    background: rgb(4, 145, 205);
+    border-radius: 20px;
+}
+.my-btn{
+    min-width: 75px;
+    height: 36px;
+    border: 1px solid #0491cd;
+    border-radius: 20px;
+    color: #0491cd;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner{
+    background-color: #2b73a6;
+}
+.el-button--primary{
+    background-color: #3f8fc8;
+}
+.el-button--primary:hover{
+    background-color: #2b73a6;
+}
+.el-input__inner{
+    border-radius: inherit;    
+}
+.el-table .cell, .el-table th>div{
+    text-align: center;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+}
+.el-table th>.cell{
+    line-height: 52px;
+}
+.el-table__footer-wrapper thead div, .el-table__header-wrapper thead div, .el-table__fixed-header-wrapper thead div{
+    background-color:#e9faff;
+}
+.el-table__body tr.hover-row>td{
+    background-color:#e9faff ;
+}
+ .el-form-item__error {
+                top: 7px;
+                left: 270px;
+            }
+.el-form-item__label{
+    font-size: 16px;
+    color:#111;
+}
+.el-form-item{
+    margin-bottom:17px;
+}
+  .el-tabs__item {
+            font-size: 16px;
+            color: #111;
+        }
